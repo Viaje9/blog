@@ -16,9 +16,8 @@ branches:
     - main
 ## 安裝 Hexo-Cli
 install:
-  - npm install
-before_script:
   - npm install hexo-cli -g  # 安裝 Hexo 環境
+  - npm install
 # 清除緩存並執行編譯
 script:
   - hexo clean
@@ -27,9 +26,9 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GH_TOKEN
+  github-token: ${GITHUB_TOKEN}
   keep-history: true
   repo: Viaje9/blog
   on:
     branch: main
-  local-dir: public
+  local_dir: public
