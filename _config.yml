@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Viaje9的筆記
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Viaje9
 language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://viaje9.github.io/blog/
+url: https://viaje9.github.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
